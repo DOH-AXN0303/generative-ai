@@ -76,11 +76,11 @@ def get_gemini_pro_vision_response(
     return "".join(final_response)
 
 
-st.header("Vertex AI Gemini 1.0 API", divider="rainbow")
+st.header("Vertex AI Gemini 1.0 API", divider="brain")
 text_model_pro, multimodal_model_pro = load_models()
 
-tab1, tab2, tab3, tab4 = st.tabs(
-    ["Generate story", "Marketing campaign", "Image Playground", "Video Playground"]
+tab1, tab2, tab3 = st.tabs(
+    ["Generate story", "Marketing campaign", "Image Playground"]
 )
 
 with tab1:
